@@ -1,0 +1,55 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#mostrarInfo {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #e9ecef;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 20px;
+}
+
+.sticky-form {
+    position: sticky;
+    top: 20px;
+    z-index: 1000;
+}
+
+/* Hacer que los registros sean compactos */
+.registro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.registro span {
+    flex: 1;
+    text-align: left;
+}
+
+.registro button {
+    margin-left: 10px;
+}
+
+.registro strong {
+    font-weight: bold;
+    color: #333;
+}
